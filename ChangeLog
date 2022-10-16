@@ -1,0 +1,61 @@
+----------------------
+ D+ Browser ChangeLog
+----------------------
+
+This ChangeLog provides a broad overview of changes between releases.
+Please see the Mercurial commit log for more specific details.
+
+
+Version 0.5b (October 15, 2013)
+-------------------------------
+
+General:
+- No changes to the browser source. However, the FLTK library on Windows
+  and MS-DOS has been patched to not create its own preferences directory,
+  which would disqualify DPlus from most "portable application" listings.
+
+
+Version 0.5a (June 12, 2012)
+----------------------------
+
+General:
+- Moved the Windows 9x profile directory to %windir%\Application Data\DPlus.
+- Build the MS-DOS version using CyaSSL rather than OpenSSL.
+
+
+Version 0.5 (May 11, 2012)
+--------------------------
+
+General:
+- Initial release (forked from Dillo-3.0).
+- Add support for Microsoft Windows and MS-DOS systems.
+- Remove legacy DPI (Dillo plugins) code.
+
+Network and Input/Output:
+- Build cookies support into the browser.
+- Build HTTPS support into the browser.
+- Build file protocol support into the browser.
+- Minor bugfixes.
+
+Preferences:
+- Add support for running as a portable application on Microsoft Windows.
+- Follow the local platform's naming conventions for configuration files.
+- Allow overriding the bookmarks file location via prefs.bookmarks_file.
+
+User Interface:
+- Build bookmarks support into the browser.
+- Add a graphical interface for setting program preferences.
+- Add preliminary printing support.
+- Use native file dialogs when they're available.
+- Use system colors rather than a hard-coded color scheme.
+- Improve clipboard support.
+- Don't use Unix key bindings in text input boxes.
+- Improve the toolbar's appearance and usability.
+- Replace the search dialog with a Firefox-style search bar.
+- Implement find-as-you-type and provide visual feedback in the find bar.
+- Treat Ctrl-clicking a hyperlink the same as middle-clicking it.
+- Use standard keyboard shortcuts to match other browsers.
+- Always show the tab bar by default.
+- Add a zoom control in the status bar.
+- Add an "Add search engine..." option to the form right-click menu.
+- Minor bugfixes.
