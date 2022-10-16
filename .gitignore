@@ -1,0 +1,12 @@
+*.o
+.deps
+*.a
+test/dw-*
+src/dplus
+config.log
+config.status
+stamp-*
+fltk-browser
+shapes
+Makefile
+config.h
