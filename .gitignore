@@ -1,7 +1,6 @@
 *.o
 .deps
 *.a
-test/dw-*
 src/dplus
 config.log
 config.status
@@ -10,3 +9,13 @@ fltk-browser
 shapes
 Makefile
 config.h
+test/dw-*-test
+test/dw-example
+test/dw-images-scaled
+test/dw-images-scaled2
+test/dw-images-simple
+test/dw-links
+test/dw-links2
+test/dw-table
+test/dw-table-aligned
+test/dw-lists
